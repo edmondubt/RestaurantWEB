@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+   
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-size: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 39px;
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.nav-links li a:hover {
+    background: #ff6347;
+}
+
+.hero {
+    background-image: url('/Img/BEST.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+    
+}
+
+.btn:hover {
+    background: #b80101;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about, .contact, .reservations {
+    background: #202020;
+    color: antiquewhite;
+}
+
+
+
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+.IMG{
+    position: absolute;
+    bottom: 500px;
+    right: 50%;
+    transform: translateX(50%);
+    margin-bottom: -45px; 
+}
