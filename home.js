@@ -2,7 +2,7 @@ let i = 0;
 let interval;
 
 let imgArray = [
-//   'Img/sliderImg.jpg',
+
   'Img/BEST.jpg',
   'Img/Img3.jpg',
   'Img/Img4.webp',

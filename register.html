@@ -7,36 +7,38 @@
     <link rel="stylesheet" href="register.css">
 </head>
 <body>
-    <div class="login-box"> 
-<h2>Create Account</h2>
+<div class="login-box"> 
+    <h2>Create Account</h2>
 
 
-<div class="input-group">
-<label>Username</label>
-<input type="text" placeholder="Enter username">
+    <div class="input-group">
+        <label>Username</label>
+        <input type="text" id="username" placeholder="Enter username">
+        <small id="usernameError"></small>
+    </div>
+
+    <div class="input-group">
+        <label>Email</label>
+        <input type="email" id="email" placeholder="Enter email">
+        <small id="emailError"></small>
+    </div>
+
+    <div class="input-group">
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Enter password">
+        <small id="passwordError"></small>
+    </div>
+
+    <div class="input-group">
+        <label>Confirm Password</label>
+        <input type="password" id="confirmPassword" placeholder="Confirm password">
+        <small id="confirmError"></small>
+    </div>
+
+    <button id="register-btn">Register</button>
+    <p class="hint">Already have an account? <a href="login.html">Login</a></p>
 </div>
 
-
-<div class="input-group">
-<label>Email</label>
-<input type="email" placeholder="Enter email">
-</div>
-
-
-<div class="input-group">
-<label>Password</label>
-<input type="password" placeholder="Enter password">
-</div>
-
-
-<div class="input-group">
-<label>Confirm Password</label>
-<input type="password" placeholder="Confirm password">
-</div>
-
-
-<button>Register</button>
-<p class="hint">Already have an account? <a href="login.html">Login</a></p>
-</div>
+<script src="register.js"></script>
 </body>
 </html>

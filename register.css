@@ -5,7 +5,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 font-family: Arial, sans-serif;
-background: linear-gradient(135deg, #FFF8E1, #FFF8E1);
+background-image: url('/Img/background.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
 
 
