@@ -13,10 +13,6 @@ body {
     align-items: center;
     text-align: center;
     color: #fff;
-    
-   
-    
-   
 }
 
 a {
@@ -30,7 +26,6 @@ ul {
 }
 
 header {
-   
     padding: 10px 20px;
     position: fixed;
     width: 100%;
@@ -41,6 +36,7 @@ header {
 }
 
 nav {
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,6 +51,7 @@ nav {
 .nav-links {
     display: flex;
     gap: 20px;
+    margin-right: 60px;
 }
 
 .nav-links li a {
@@ -123,3 +120,18 @@ footer {
 h3{
     font-size: 27px;
 }
+@media (max-width: 725px) {
+        .logo {
+            font-size: 30px;
+        }
+    }
+     @media (max-width: 669px) {
+        .nav-links {
+            gap: 0px;
+        }
+    }
+       @media (max-width: 607px) {
+        .nav-links {
+            display: block;
+        }
+    }

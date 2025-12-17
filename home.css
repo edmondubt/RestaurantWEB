@@ -216,3 +216,19 @@ body {
             flex-direction: column;
         }
     }
+
+    @media (max-width: 725px) {
+        .logo {
+            font-size: 30px;
+        }
+    }
+     @media (max-width: 669px) {
+        .nav-links {
+            gap: 0px;
+        }
+    }
+       @media (max-width: 607px) {
+        .nav-links {
+            display: block;
+        }
+    }
